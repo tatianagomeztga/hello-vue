@@ -1,4 +1,4 @@
-##Aprendiendo Vue - 0
+## Aprendiendo Vue - 0
 
 **Atributos dinámicos**
 
