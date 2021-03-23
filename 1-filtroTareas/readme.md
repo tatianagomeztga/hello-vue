@@ -1,4 +1,4 @@
-##Aprendiendo Vue - 1
+## Aprendiendo Vue - 1
 
 **Renderizado de listas y propiedades computadas**
 
