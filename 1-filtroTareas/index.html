@@ -8,6 +8,14 @@
 </head>
 <body>
   <div id="app">
+   
+    <!--Evento y modificador-->
+    <form v-on:submit.prevent="guardarTarea">
+      <input type="text" v-model="nuevaTarea" placeholder="Tarea"> 
+      <!--<input type="text" v-model="nuevaTarea" placeholder="Tarea"
+        v-on:keyUp="guardarTarea"> v-on:keyUp => @keyUp-->
+      <input type="submit" value="Guardar Tarea">
+    </form>
     <input type="range" v-model="tiempo">{{ tiempo }}
     <hr>
     <input type="search" v-model="busqueda" placeholder="">{{ busqueda }}
